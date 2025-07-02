@@ -1,7 +1,7 @@
 import { google } from "googleapis";
 const playintegrity = google.playintegrity('v1');
 
-
+console.log(process.env.PACKAGE_NAME)
 const packageName = process.env.PACKAGE_NAME
 const privatekey = JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS)
 
