@@ -28,7 +28,7 @@ async function getTokenResponse(token) {
 
     );
 
-    console.log(res.data.tokenPayloadExternal);
+    console.log(res);
 
     return res.data.tokenPayloadExternal
 }
